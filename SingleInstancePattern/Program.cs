@@ -12,6 +12,9 @@ namespace SingleInstancePattern
 
             Console.WriteLine(singleton1.Id);
             Console.WriteLine(singleton2.Id);
+            
+            Console.WriteLine(Singleton2.Current.Id);
+            Console.WriteLine(Singleton2.Current.Id);
             Console.ReadKey();
         }
     }
