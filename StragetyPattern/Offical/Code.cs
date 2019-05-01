@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 namespace StragetyPattern.Offical
 {
+
+   
+
     /// <summary>
     /// MainApp startup class for Structural
     /// Strategy Design Pattern.
