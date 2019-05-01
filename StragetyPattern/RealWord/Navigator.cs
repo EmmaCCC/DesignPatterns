@@ -5,6 +5,9 @@ using System.Text;
 
 namespace StragetyPattern
 {
+    /// <summary>
+    /// 高德地图导航
+    /// </summary>
     public class Navigator
     {
         public string From { get; set; }
