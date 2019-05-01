@@ -43,12 +43,14 @@ namespace AdapterPattern
             IHDMIInterfaceTarget hdmiTarget2 = new HDMIInterface();
             hdmiTarget2.DisplayHDMISignal();
 
+            Console.WriteLine("==============================");
             //新显卡急需一个IHDMIInterfaceTarget标准的对象才能工作
             GraphicsCard graphics = new GraphicsCard();
             //用适配器的做的 和 真正的hdmi接口的 都可以
             graphics.Work(adapter);
             graphics.Work(hdmiTarget2);
 
+            Console.WriteLine("==============================");
 
 
             /*
