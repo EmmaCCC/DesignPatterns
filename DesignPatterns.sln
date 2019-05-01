@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleInstancePattern", "SingleInstancePattern\SingleInstancePattern.csproj", "{3E54E660-B0AF-4AB7-B41D-5F6030B2DCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StragetyPattern", "StragetyPattern\StragetyPattern.csproj", "{65AFCA51-D9B6-4FC4-ADF3-DD720E378702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StragetyPattern", "StragetyPattern\StragetyPattern.csproj", "{65AFCA51-D9B6-4FC4-ADF3-DD720E378702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{D408408C-E5EF-418E-BED7-E1BDCA1660B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{D408408C-E5EF-418E-BED7-E1BDCA1660B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型", "结构型", "{61D141AB-E6A2-44D8-9AD7-FE06F1907294}"
 EndProject
@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型", "创建型", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{A805D1B0-4C1B-457D-A80E-EB46BD976570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C11912BF-B43C-408A-BD12-FA42F1CACED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C11912BF-B43C-408A-BD12-FA42F1CACED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C11912BF-B43C-408A-BD12-FA42F1CACED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C11912BF-B43C-408A-BD12-FA42F1CACED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C11912BF-B43C-408A-BD12-FA42F1CACED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{65AFCA51-D9B6-4FC4-ADF3-DD720E378702} = {A805D1B0-4C1B-457D-A80E-EB46BD976570}
 		{D408408C-E5EF-418E-BED7-E1BDCA1660B7} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
 		{C11912BF-B43C-408A-BD12-FA42F1CACED9} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
+		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7} = {A805D1B0-4C1B-457D-A80E-EB46BD976570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A11F19D7-8A99-4114-8350-B3B96F453F94}
