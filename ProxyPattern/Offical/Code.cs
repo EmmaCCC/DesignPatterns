@@ -12,7 +12,7 @@ namespace StragetyPattern.Offical
         /// <summary>
         /// Entry point into console application.
         /// </summary>
-        static void Main()
+        static void MainAppTest()
         {
             // Create proxy and request a service
             /*
@@ -73,5 +73,5 @@ namespace StragetyPattern.Offical
             _realSubject.Request();
         }
     }
-}
+
 }
