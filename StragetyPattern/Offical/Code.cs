@@ -19,15 +19,7 @@ namespace StragetyPattern.Offical
         {
             Context context;
             // Three contexts following different strategies
-            /*说明： 
-             * Context 相当于我们的Navigtor，
-             * ConcreteStrategyA、ConcreteStrategyB、ConcreteStrategyC 相当于我们的Router
-                这里将算法定义为抽象类了，当然我们是用的接口，都一样，相当于我们的IRouter
-                abstract class Strategy
-                {
-                    public abstract void AlgorithmInterface();
-                }
-             */
+          
             context = new Context(new ConcreteStrategyA());
             context.ContextInterface();
             context = new Context(new ConcreteStrategyB());
