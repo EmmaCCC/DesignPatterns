@@ -23,7 +23,9 @@ namespace ProxyPattern.RealWord
         {
             //一顿请求 调用WebRequest请求到内容
             var content = "google";
+            //把请求到的内容给真实的中国客户端
             _client.Content = content;
+            //展示真实客户端的结果，也可以不调用，看情况，反正已经拿到了数据
             _client.Request();
         }
     }

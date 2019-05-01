@@ -4,7 +4,10 @@ using System.Text;
 
 namespace ProxyPattern.RealWord2
 {
-    class Reporter
+    /// <summary>
+    /// 记者类
+    /// </summary>
+    public class Reporter
     {
         public void Interview(Interviewer interviewer,string question)
         {
