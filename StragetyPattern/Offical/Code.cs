@@ -12,7 +12,7 @@ namespace StragetyPattern.Offical
         /// <summary>
         /// Entry point into console application.
         /// </summary>
-        static void Main()
+        static void MainAppTest()
         {
             Context context;
             // Three contexts following different strategies
