@@ -7,7 +7,6 @@ namespace ProxyPattern.RealWord2
     public class Star : Interviewer
     {
         public string Name { get; set; }
-
         public bool AllowedSay { get; set; } = false;
         public override string AcceptInterview(string question)
         {
