@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{C11912BF-B43C-408A-BD12-FA42F1CACED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{D408408C-E5EF-418E-BED7-E1BDCA1660B7} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
 		{C11912BF-B43C-408A-BD12-FA42F1CACED9} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
 		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7} = {A805D1B0-4C1B-457D-A80E-EB46BD976570}
+		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A} = {6FE5D241-79DD-4AA4-956F-EEA5CE9A1ACD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A11F19D7-8A99-4114-8350-B3B96F453F94}
