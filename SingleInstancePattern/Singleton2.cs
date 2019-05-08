@@ -9,13 +9,13 @@ namespace SingleInstancePattern
         public Guid Id { get; set; }
         static Singleton2()
         {
-            Current = new Singleton2();
+            Instance = new Singleton2();
         }
         private Singleton2()
         {
             Id = Guid.NewGuid();
         }
 
-        public static Singleton2 Current { get; }
+        public static readonly Singleton2 Instance;
     }
 }
