@@ -12,7 +12,7 @@ namespace StragetyPattern.Offical
         /// <summary>
         /// Entry point into console application.
         /// </summary>
-        public static void Main()
+        public static void MainAppTest()
         {
             // Create director and builders
             Director director = new Director();

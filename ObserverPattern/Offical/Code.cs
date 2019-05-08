@@ -12,7 +12,7 @@ namespace StragetyPattern.Offical
         /// <summary>
         /// Entry point into console application.
         /// </summary>
-        static void Main()
+        static void MainAppTest()
         {
             // Configure Observer pattern
             ConcreteSubject s = new ConcreteSubject();
