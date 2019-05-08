@@ -28,7 +28,9 @@ namespace StragetyPattern
         static void Main(string[] args)
         {
           
-
+            /*
+             * 现实世界的例子：假设我们从郑州想去北京，打开高德地图一导航，有三条路线，我们分别展示三条路线策略的详情说明。
+             */
 
             //使用距离最短策略
             Navigator navigator1 = new Navigator("郑州", "北京", new DistanceShortestRouter());
