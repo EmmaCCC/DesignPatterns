@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-namespace StragetyPattern.Offical
+
+namespace AdapterPattern.Official
 {
 
     /// <summary>

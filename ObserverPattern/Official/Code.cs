@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-namespace StragetyPattern.Offical
+
+namespace ObserverPattern.Official
 {
     /// <summary>
     /// MainApp startup class for Structural 

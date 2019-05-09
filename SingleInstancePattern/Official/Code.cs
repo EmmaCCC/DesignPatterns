@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-namespace SingleInstancePattern.Offical
+namespace SingleInstancePattern.Official
 {
     /// <summary>
     /// MainApp startup class for Structural
