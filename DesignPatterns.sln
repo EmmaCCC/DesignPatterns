@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "Observer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{CBC0DE5E-FCEE-4104-B571-266CB829DA4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC0DE5E-FCEE-4104-B571-266CB829DA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC0DE5E-FCEE-4104-B571-266CB829DA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC0DE5E-FCEE-4104-B571-266CB829DA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC0DE5E-FCEE-4104-B571-266CB829DA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{8707BCE1-6A19-4E5E-8601-8EEF8F344BC7} = {A805D1B0-4C1B-457D-A80E-EB46BD976570}
 		{B0B6C835-1666-4E3A-99A3-87C74D7DCF0A} = {6FE5D241-79DD-4AA4-956F-EEA5CE9A1ACD}
 		{3BE8282B-9A5D-4A6D-A989-A55F418E2AE2} = {6FE5D241-79DD-4AA4-956F-EEA5CE9A1ACD}
+		{CBC0DE5E-FCEE-4104-B571-266CB829DA4E} = {6FE5D241-79DD-4AA4-956F-EEA5CE9A1ACD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A11F19D7-8A99-4114-8350-B3B96F453F94}
