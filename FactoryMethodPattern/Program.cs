@@ -10,9 +10,9 @@ namespace FactoryMethodPattern
     class Program
     {
         /*
-         * 定义一个用于创建对象的接口，让子类决定实例化哪一个类。Factory Method使得一个类的实例化延迟到子类。--《设计模式》GoF
+         * 工厂方法模式：定义一个用于创建对象的接口，让子类决定实例化哪一个类。Factory Method使得一个类的实例化延迟到子类。--《设计模式》GoF
          * 
-         * 模式的组成
+         * 模式的组成：
 
           可以看出，在工厂方法模式的结构图有以下角色：
 

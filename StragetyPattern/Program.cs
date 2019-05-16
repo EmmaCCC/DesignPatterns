@@ -8,17 +8,17 @@ namespace StragetyPattern
         /*
          * 策略模式: 定义一系列算法，把它们一个个封装起来，并且使它们可互相替换。该模式使得算法可独立于使用它的客户而变化。 ——《设计模式》GoF　　　　　　  
          * 
-         *    策略模式的结构图有以下角色：
+         * 模式的组成：
 
             （1）环境角色（Context）：持有一个Strategy类的引用。
 
-                 需要使用ConcreteStrategy提供的算法。
+                    需要使用ConcreteStrategy提供的算法。
 
-                 内部维护一个Strategy的实例。
+                    内部维护一个Strategy的实例。
 
-                 负责动态设置运行时Strategy具体的实现算法。
+                    负责动态设置运行时Strategy具体的实现算法。
 
-                 负责跟Strategy之间的交互和数据传递  如：[Navigator]
+                    负责跟Strategy之间的交互和数据传递  如：[Navigator]
 
             （2）抽象策略角色（Strategy）：定义了一个公共接口，各种不同的算法以不同的方式实现这个接口，
                 Context使用这个接口调用不同的算法，一般使用接口或抽象类实现。  如：[IRouter]

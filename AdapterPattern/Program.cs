@@ -6,11 +6,11 @@ namespace AdapterPattern
 {
     class Program
     {
-       
+
         /*
             * 适配器模式: 将一个类的接口转换成客户希望的另一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。--《设计模式》Gof
             * 
-            * 模式的组成
+            * 模式的组成：
 
             （1）目标角色（Target）：定义Client使用的与特定领域相关的接口。如： [IHDMIInterfaceTarget,ICanSayEnglish]
 
@@ -22,7 +22,7 @@ namespace AdapterPattern
 
             如： [VGAToHDMIAdapter,Translator]
         */
-        
+
         static void Main(string[] args)
         {
             //买了新显卡，先显卡需要一个IHDMIInterfaceTarget的接口实现，即能输出HDMI信号的口
