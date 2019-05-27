@@ -8,6 +8,8 @@ namespace PrototypePattern
         /*
          * 使用原型实例指定创建对象的种类，然后通过拷贝这些原型来创建新的对象。--《设计模式》Gof
          * 
+         * 使用频率：★★★☆☆
+         * 
          * 模式的组成
 
             （1）原型类（Prototype）：原型类，声明一个Clone自身的接口； 如：[Prototype]

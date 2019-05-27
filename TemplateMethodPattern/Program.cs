@@ -8,6 +8,8 @@ namespace TemplateMethodPattern
         /*
          * 模板方法模式：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。——《设计模式》GoF
          * 
+         * 使用频率：★★★☆☆
+         * 
          * 模式的组成：
 
 　　        （1）抽象类角色（AbstractClass）：定义一个模板方法（TemplateMethod），在该方法中包含着一个算法的骨架，具体的算法步骤是PrimitiveOperation1方法和PrimitiveOperation2方法，该抽象类的子类将重定义PrimitiveOperation1和PrimitiveOperation2操作。

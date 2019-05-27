@@ -8,17 +8,19 @@ namespace AdapterPattern
     {
 
         /*
-            * 适配器模式: 将一个类的接口转换成客户希望的另一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。--《设计模式》Gof
-            * 
-            * 模式的组成：
+         * 适配器模式: 将一个类的接口转换成客户希望的另一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。--《设计模式》Gof
+         * 
+         * 使用频率：★★★★☆
+         * 
+         * 模式的组成：
 
-            （1）目标角色（Target）：定义Client使用的与特定领域相关的接口。如： [IHDMIInterfaceTarget,ICanSayEnglish]
+          （1）目标角色（Target）：定义Client使用的与特定领域相关的接口。如： [IHDMIInterfaceTarget,ICanSayEnglish]
 
-            （2）客户角色（Client）：与符合Target接口的对象协同。 如： [GraphicsCard,English]，可有可无
+          （2）客户角色（Client）：与符合Target接口的对象协同。 如： [GraphicsCard,English]，可有可无
 
-            （3）被适配角色（Adaptee)：定义一个已经存在并已经使用的接口，这个接口需要适配。如： [VGAInterface,Chinese]
+          （3）被适配角色（Adaptee)：定义一个已经存在并已经使用的接口，这个接口需要适配。如： [VGAInterface,Chinese]
 
-            （4）适配器角色（Adapter) ：适配器模式的核心。它将对被适配Adaptee角色已有的接口转换为目标角色Target匹配的接口。对Adaptee的接口与Target接口进行适配。
+          （4）适配器角色（Adapter) ：适配器模式的核心。它将对被适配Adaptee角色已有的接口转换为目标角色Target匹配的接口。对Adaptee的接口与Target接口进行适配。
 
             如： [VGAToHDMIAdapter,Translator]
         */

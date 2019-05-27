@@ -12,21 +12,21 @@ namespace FactoryMethodPattern
         /*
          * 工厂方法模式：定义一个用于创建对象的接口，让子类决定实例化哪一个类。Factory Method使得一个类的实例化延迟到子类。--《设计模式》GoF
          * 
+         * 使用频率：★★★★★
+         * 
          * 模式的组成：
 
-          可以看出，在工厂方法模式的结构图有以下角色：
-
           （1）抽象工厂角色（Creator）: 充当抽象工厂角色，定义工厂类所具有的基本的操作，任何具体工厂都必须继承该抽象类。
-           如：[XiaoMiPhoneFactoryProvider,IHttpHandlerFactory]
+              如：[XiaoMiPhoneFactoryProvider,IHttpHandlerFactory]
 
           （2）具体工厂角色（ConcreteCreator）：充当具体工厂角色，该类必须继承抽象工厂角色，实现抽象工厂定义的方法，用来创建具体产品。
-          如：[XiaoMi8FactoryProvider,XiaoMi9FactoryProvider,AshxHttpHandlerFactory,AspxHttpHandlerFactory]
+              如：[XiaoMi8FactoryProvider,XiaoMi9FactoryProvider,AshxHttpHandlerFactory,AspxHttpHandlerFactory]
 
           （3）抽象产品角色（Product）：充当抽象产品角色，定义了产品类型所有具有的基本操作，具体产品必须继承该抽象类。
-          如：[XiaoMiPhone,IHttpHandler]
+              如：[XiaoMiPhone,IHttpHandler]
 
           （4）具体产品角色（ConcreteProduct）：充当具体产品角色，实现抽象产品类对定义的抽象方法，由具体工厂类创建，它们之间有一一对应的关系。
-          如：[XIaoMi8,XIaoMi9]
+              如：[XIaoMi8,XIaoMi9]
 
          */
         static void Main(string[] args)
