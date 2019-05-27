@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "Mediator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{BA8892A3-56F2-45C7-8512-72221429CC5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{9888C143-917A-47A0-8848-32C81F737147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{9888C143-917A-47A0-8848-32C81F737147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{369638DA-AC14-447C-A30C-8E206999A1B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{369638DA-AC14-447C-A30C-8E206999A1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{F25F15E7-9104-4581-AEF2-851757C729BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{369638DA-AC14-447C-A30C-8E206999A1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369638DA-AC14-447C-A30C-8E206999A1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369638DA-AC14-447C-A30C-8E206999A1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25F15E7-9104-4581-AEF2-851757C729BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25F15E7-9104-4581-AEF2-851757C729BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25F15E7-9104-4581-AEF2-851757C729BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25F15E7-9104-4581-AEF2-851757C729BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{BA8892A3-56F2-45C7-8512-72221429CC5E} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
 		{9888C143-917A-47A0-8848-32C81F737147} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
 		{369638DA-AC14-447C-A30C-8E206999A1B0} = {61D141AB-E6A2-44D8-9AD7-FE06F1907294}
+		{F25F15E7-9104-4581-AEF2-851757C729BD} = {A805D1B0-4C1B-457D-A80E-EB46BD976570}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A11F19D7-8A99-4114-8350-B3B96F453F94}
