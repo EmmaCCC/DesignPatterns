@@ -9,7 +9,7 @@ namespace VisitorPattern.Official
     /// </summary>
     class MainApp
     {
-        static void Main()
+        static void MainAppTest()
         {
             // Setup structure
             ObjectStructure o = new ObjectStructure();
